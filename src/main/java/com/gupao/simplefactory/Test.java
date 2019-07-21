@@ -7,7 +7,7 @@ package com.gupao.simplefactory;
 public class Test {
     public static void main(String[] args) {
         PhoneFactory pf = new PhoneFactory();
-        IPhone p = pf.create(VivoIPhone.class);
+        IPhone p = pf.create(VivoPhone.class);
         p.checked();
     }
 
